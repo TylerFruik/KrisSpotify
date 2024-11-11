@@ -59,11 +59,13 @@ const Nav = () => {
         <h1>Kris's List</h1>
         {token ? (
           <>
-            <span className="user-name">{userName}</span>
-            <button className="btn" onClick={logout}>Logout</button>
+            <div>
+              <span className="user-name">{userName}</span>
+              <button className="btn" onClick={logout}>Logout</button>
+            </div>
           </>
         ) : (
-          <a href={loginUrl} target="_blank" rel="noopener noreferrer">
+          <a href={loginUrl} rel="noopener noreferrer">
             <button className="btn">Login</button>
           </a>
         )}
