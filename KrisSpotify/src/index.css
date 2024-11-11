@@ -2,9 +2,9 @@
 /* #region */
 :root {
   --primary: #B4C1CA;
-  --secondary: #AF0808;
-  --tertiary: #696868;
-  --background: #1F1F1F;
+  --secondary: #1ED760;
+  --tertiary: #034907;
+  --background: #031a04;
 }
 
 /* #endregion */
@@ -42,6 +42,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px, 20px;
+  margin-bottom: 20px;
 }
 
 header h1 {
@@ -121,6 +122,5 @@ header h1 {
   height: 50px;
   margin-left: 10px;
 }
-
 
 /* #endregion */
